@@ -1,0 +1,60 @@
+### Commons ###
+
+# Build
+build/
+bin/
+dist/
+nbdist/
+out/
+target/
+
+# Log file
+*.log
+
+
+### Java ###
+
+# Build
+*.class
+
+# Distribution / packaging
+*.jar
+*.war
+*.nar
+*.ear
+
+
+### Python ###
+
+# Build
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.venv
+
+# pyenv
+.python-version
+
+
+### IDE ###
+tmp/
+.idea/
+.project/
+.settings/
+.classpath/
+.recommenders/
+*.iml
+*.iws
+*.tmp
+*.bak
+*.swp
+*~.nib
+*.pydevproject
+.cproject
+.metadata
+.loadpath
+.buildpath
+local.properties
