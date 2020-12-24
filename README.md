@@ -10,6 +10,10 @@ git clone https://github.com/crogeo/scia.git
 cd scia
 pip install .
 ```
+- From PyPi
+```bash
+pip install scia
+```
 
 ## Usage
 
