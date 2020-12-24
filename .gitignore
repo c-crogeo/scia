@@ -30,6 +30,7 @@ target/
 __pycache__/
 *.py[cod]
 *$py.class
+*egg-info/
 
 # Virtualenv
 venv/
