@@ -30,7 +30,6 @@ target/
 __pycache__/
 *.py[cod]
 *$py.class
-*egg-info/
 
 # Virtualenv
 venv/
@@ -58,4 +57,8 @@ tmp/
 .metadata
 .loadpath
 .buildpath
+
+
+### Local ###
 local.properties
+local.ini

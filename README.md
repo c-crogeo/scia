@@ -1,9 +1,9 @@
-<div align="center">
-<h1>scia</h1>
-<h4>Python logging extension</h4>
-</div>
+# scia
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/crogeo/scia/LICENSE)
 
-## Setup
+Python logging extension - crogeo.org
+
+## Installation
 - From sources
 ```bash
 git clone https://github.com/crogeo/scia.git
@@ -15,7 +15,7 @@ pip install .
 pip install scia
 ```
 
-## Usage
+## Documentation
 
 - Config file: log.ini
 ```ini
@@ -56,14 +56,6 @@ args=(sys.stdout,)
 format=%(asctime)s - %(name)10s - %(levelname)8s - %(message)s
 ```
 
-- Project name configuration
-```python
-from scia import config
-
-config.project = 'myproject' # The logger name and the filename: logs/myproject.log
-config.inifile = 'log.ini'  # Configuration file
-```
-
 - Usage
 ```python
 from scia import get_logger
@@ -76,13 +68,13 @@ log.warning('Warning message')
 log.error('Error message')
 ```
 
-## Licence
-This source code is published under [MIT Licence](https://).
+- Project name configuration
+```python
+from scia import config
 
-#
->Ma l'acqua gira e passa e non sa dirmi niente  
->di gente, me, o di quest'aria bassa  
->ottusa e indifferente cammina e corre via  
->lascia una scia e non gliene frega niente
->
->*Francesco Guccini*
+config.project = 'myproject' # The logger name and the filename: logs/myproject.log
+config.inifile = 'log.ini'  # Configuration file
+```
+
+## License
+Crogeo scia is [MIT licensed](./LICENSE).

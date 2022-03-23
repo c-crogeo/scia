@@ -1,12 +1,13 @@
+from scia import config, get_logger
+import random
+
+
 def init():
-    from scia import config
     config.project = 'crogeo'
     config.inifile = 'log.ini'
 
 
 def main():
-    from scia import get_logger
-    import random
     for i in range(320):
         log = random.choice([
             get_logger('crogeo'),
