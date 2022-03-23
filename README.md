@@ -1,5 +1,5 @@
 # scia
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/crogeo/scia/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/crogeo/scia/blob/master/LICENSE)
 
 Python logging extension - crogeo.org
 
