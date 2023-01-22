@@ -8,7 +8,8 @@ nbdist/
 out/
 target/
 
-# Log file
+# Logs
+logs/
 *.log
 
 
@@ -28,8 +29,10 @@ target/
 
 # Build
 __pycache__/
+*egg-info/
 *.py[cod]
 *$py.class
+*.spec
 
 # Virtualenv
 venv/
@@ -54,11 +57,12 @@ tmp/
 *~.nib
 *.pydevproject
 .cproject
+.project
 .metadata
 .loadpath
 .buildpath
 
-
-### Local ###
+# local
 local.properties
 local.ini
+local.json
