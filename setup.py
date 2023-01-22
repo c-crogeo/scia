@@ -7,7 +7,7 @@ with open('README.md', encoding='utf-8') as fp:
 
 setup(
     name='scia',
-    version='1.0.1',
+    version='1.0.2',
     packages=['scia', 'scia.handlers'],
     url='https://github.com/crogeo/scia',
     license='MIT License',
